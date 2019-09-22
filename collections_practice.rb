@@ -24,10 +24,7 @@ def kesha_maker(array)
   new_array = []
   a_array = 
   array.collect do |x|
-  new_array << "#{x.insert(2,"$")}"
-  end
-  new_array.tap do |y|
-  y.slice!(3)
+  new_array << "#{x.insert(2,"$").slice!(3); str}"
   end
 end
 
