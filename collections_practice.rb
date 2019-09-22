@@ -31,9 +31,11 @@ end
 
 def find_a(array)
   array.each {|x|
-  if x.index(a)
+  if x.index("a") == 0
+    x
   else
   end}
+  array
 end
 
 def sum_array(array)
