@@ -23,7 +23,7 @@ end
 def kesha_maker(array)
   new_array = []
   a_array = []
-  array.collect do |x|
+  array.tap do |x|
   new_array << "#{x.slice}"
   end
 end
