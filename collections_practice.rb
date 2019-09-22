@@ -24,8 +24,9 @@ def kesha_maker(array)
   new_array = []
   a_array = 
   array.collect do |x|
-  new_array << "#{x.insert(2,"$").slice!(3); x}"
+  new_array << "#{x.insert(2,"$").slice!(3)}"
   end
+  new_array
 end
 
 def find_a(array)
