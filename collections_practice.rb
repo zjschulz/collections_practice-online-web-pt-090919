@@ -31,11 +31,9 @@ end
 
 def find_a(array)
   array.each {|x|
-  if
-else
-  
-    
-  }
+  if x.index
+  else
+  end}
 end
 
 def sum_array(array)
