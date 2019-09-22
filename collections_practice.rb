@@ -23,7 +23,7 @@ end
 def kesha_maker(array)
   new_array = []
   array.collect do |x|
-  new_array << "#{x.insert(2,"$")}"
+  new_array << "#{x.insert(2,"$").delete_at(3)}"
   end
   new_array
 end
