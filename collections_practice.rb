@@ -27,7 +27,7 @@ def kesha_maker(array)
   new_array << "#{x.insert(2,"$")}"
   end
   new_array.collect do |y|
-  another_array << "#{y.delete(3)}"
+  another_array << "#{y}"
   end
   another_array
 end
