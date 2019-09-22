@@ -30,12 +30,12 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.each {|x|
+  new_array
+  array.collect {|x|
   if x.index("a") == 0
     x
   else
   end}
-  array
 end
 
 def sum_array(array)
