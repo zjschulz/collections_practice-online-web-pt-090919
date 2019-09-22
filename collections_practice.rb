@@ -34,7 +34,9 @@ def find_a(array)
   if x.index("a") == 0
     x
   else
-  end}
+  end
+  array.compact  
+  }
 end
 
 def sum_array(array)
