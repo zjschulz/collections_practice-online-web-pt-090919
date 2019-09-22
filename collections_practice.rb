@@ -25,7 +25,10 @@ def kesha_maker(array)
   array.collect do |x|
   new_array << "#{x.insert(2,"$")}"
   end
-  new_array
+  new_array.collect do |y|
+  another_array << "#{y.delete_at(3)}"
+  end
+  another_array
 end
 
 def find_a(array)
