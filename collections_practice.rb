@@ -39,7 +39,7 @@ end
 
 def add_s(array)
   new_array = []
-  array.delete_at(2)
+  array.delete_at(1)
   array.each {|x| new_array << "#{x}s"}
-  new_array
+  new_array.insert(1,"feet")
 end
