@@ -22,10 +22,14 @@ end
 
 def kesha_maker(array)
   new_array = []
-  a_array = []
-  array.tap do |x|
-  new_array << "#{x.slice}"
+  a_array = 
+  array.collect do |x|
+  new_array << "#{x.insert(2,"$")}"
   end
+  new_array.tap do |y|
+  y.slice!(3)
+  end
+  a_array
 end
 
 def find_a(array)
