@@ -31,7 +31,7 @@ end
 
 def find_a(array)
   array.each {|x|
-  if x.index
+  if x.index(a)
   else
   end}
 end
