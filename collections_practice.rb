@@ -22,7 +22,7 @@ end
 
 def kesha_maker(array)
   new_array = []
-  array.each do |x|
+  array.collect do |x|
   new_array << "#{x}"
   end
   new_array
