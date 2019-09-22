@@ -29,7 +29,6 @@ def kesha_maker(array)
   new_array.tap do |y|
   y.slice!(3)
   end
-  new_array
 end
 
 def find_a(array)
