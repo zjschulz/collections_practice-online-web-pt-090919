@@ -36,7 +36,7 @@ def find_a(array)
     x
   else
   end
-  }
+  }.compact
 end
 
 def sum_array(array)
